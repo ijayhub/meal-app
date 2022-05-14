@@ -58,4 +58,4 @@ You may also see any lint errors in the console.
 
 To route to another page you install npm install react-router-dom@6
 
-< align="right">(<a href="#top">back to top</a>)</
+<p align="right">(<a href="#top">back to top</a>)</p>
