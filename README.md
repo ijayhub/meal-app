@@ -26,7 +26,7 @@
 
 Repo_name: https://github.com/ijayhub/meal-app
 
-Hosted link: 
+Hosted link: meal-webapp.netlify.app
 
 project_title: Meal generator app
 
