@@ -17,7 +17,7 @@
 }
 .loading{
   text-align: center;
-  font-weight:900;
+  font-weight:700;
   font-size:60px;
 
 }
@@ -96,15 +96,21 @@
 
 }
 @media only screen and (max-width:600px){
- .meal-img{
+.meal-img{
   width: 100%;
   max-width: 400px;
   height: auto;
   
- }
- .container-meal{
+  }
+.container-meal{
   margin: 20px;
+  
+  }
+.loading{
+  font-size:20px;
+  }
+.detail-text{
+  width: 55%;
+  }
 }
-}
-
 
