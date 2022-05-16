@@ -30,7 +30,7 @@ const Home = () => {
    
     return (
 			<div>
-				{isLoading && <div className='loading'>Loading</div>}
+            {isLoading && <div className='loading'>Loading ...</div>}
 				{!isLoading && <Meal foods={foods} title='Meal App' fetchFood={fetchFood} />}
 				<div className='meal-btn'>
                 
