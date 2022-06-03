@@ -26,9 +26,9 @@
 
 Repo_name: https://github.com/ijayhub/meal-app
 
-Hosted link: meal-webapp.netlify.app
+Hosted link: https://meal-webapp.netlify.app
 
-project_title: Meal generator app
+project_title: Meal generator random app
 
 project_description: This website generates meal randomly and shows ingredients and how it prepared.
 
