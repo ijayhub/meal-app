@@ -8,6 +8,9 @@ const Meal = ({ foods, title,fetchFood }) => {
 			<div className='container-meal'>
 				<h1 className='header'>{title}</h1>
 				<div className='underline'></div>
+				<small className='small'>
+					Click on the image to see details of the meal
+				</small>
 				{foods.map((food) => (
 					<div key={food.idMeal}>
 						<h3 className='meal-title'>{food.strMeal}</h3>
@@ -16,12 +19,13 @@ const Meal = ({ foods, title,fetchFood }) => {
 								src={food.strMealThumb}
 								alt='food'
 								className='meal-img responsive'
-                        />
-                        
+							/>
 						</Link>
 					</div>
 				))}
-				<button onClick={fetchFood} className='btn'>Click to see more meals</button>
+				<button onClick={fetchFood} className='btn'>
+					Click to see more meals
+				</button>
 			</div>
 		);
 }

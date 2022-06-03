@@ -97,6 +97,11 @@
   margin:50px 100px;
 
 }
+.small{
+  font-size:16px;
+  margin-bottom:20px;
+  
+}
 @media only screen and (max-width:600px){
 .meal-img{
   width: 100%;

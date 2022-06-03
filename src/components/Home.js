@@ -18,15 +18,13 @@ const Home = () => {
             });
     };
     useEffect(() => {
-			setTimeout(() => {
-				fetchFood();
-			}, 100);
+        setTimeout(() => {
+            fetchFood();
+        }, 100);
 
-			// eslint-disable-next-line react-hooks/exhaustive-deps
-		}, []);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
 
-    
-    // 
    
     return (
 			<div>
