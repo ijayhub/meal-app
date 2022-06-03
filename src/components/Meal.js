@@ -9,7 +9,7 @@ const Meal = ({ foods, title,fetchFood }) => {
 				<h1 className='header'>{title}</h1>
 				<div className='underline'></div>
 				<small className='small'>
-					Click on the image to see details of the meal
+					Click on the image to view details of the meal
 				</small>
 				{foods.map((food) => (
 					<div key={food.idMeal}>
